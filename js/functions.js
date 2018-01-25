@@ -22,7 +22,7 @@ function loadTeam(kelompok){
     	//file_loc = "https://drive.google.com/drive/folders/1elYhgvaFUPBmLPga4PVBex7iIWKxJEry/materi/" + rubrik + "Kelompok" + kelompok + "-Laporan.pdf";
    	//ppt_loc =  "https://drive.google.com/drive/folders/1elYhgvaFUPBmLPga4PVBex7iIWKxJEry/materi/PPT/" + rubrik + "Kelompok" + kelompok + ".pptx";
 	file_loc = 'test';
-	ppt_loc	= "test2';
+	ppt_loc	= 'test2';
 	ppt_link =  '<a href="'+ppt_loc+'">'+'File Presentasi'+'</a>';	
   	return viewArticle( file_loc, detailTeam, ppt_link);
 }
