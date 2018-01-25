@@ -5,7 +5,7 @@ function viewArticle(pdf_file, team_names, ppt_link){
 }
 
 function loadTeam(kelompok){
-	window.alert(kelompok);
+	//window.alert(kelompok);
     for (var i=0; i<=kelompok; i++) {
         rubrik = teamDesc[i][1];
 
@@ -19,10 +19,10 @@ function loadTeam(kelompok){
 	 	detailTeam = detailTeam + "</ul>";
 	}
 	
-    //file_loc = "https://drive.google.com/drive/folders/1elYhgvaFUPBmLPga4PVBex7iIWKxJEry/materi/" + rubrik + "Kelompok" + kelompok + "-Laporan.pdf";
-    //ppt_loc =  "https://drive.google.com/drive/folders/1elYhgvaFUPBmLPga4PVBex7iIWKxJEry/materi/PPT/" + rubrik + "Kelompok" + kelompok + ".pptx";
-	ppt_link =  '<a href="'+ppt_loc+'">'+'File Presentasi'+'</a>';
-    window.alert(detailTeam);
-  	//return viewArticle( file_loc, detailTeam, ppt_link);
+    	//file_loc = "https://drive.google.com/drive/folders/1elYhgvaFUPBmLPga4PVBex7iIWKxJEry/materi/" + rubrik + "Kelompok" + kelompok + "-Laporan.pdf";
+   	//ppt_loc =  "https://drive.google.com/drive/folders/1elYhgvaFUPBmLPga4PVBex7iIWKxJEry/materi/PPT/" + rubrik + "Kelompok" + kelompok + ".pptx";
+	file_loc = 'test';
+	ppt_link =  '<a href="'+ppt_loc+'">'+'File Presentasi'+'</a>';	
+  	return viewArticle( file_loc, detailTeam, ppt_link);
 }
 
