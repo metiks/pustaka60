@@ -1,5 +1,5 @@
 function viewArticle(pdf_file, team_names, ppt_link){
-	parent.document.getElementById("pdf_load").src = https://drive.google.com/file/d/0B6qHZKp28RmeaWNFODR4al9hSTQ/preview;
+	parent.document.getElementById("pdf_load").src = "https://drive.google.com/file/d/0B6qHZKp28RmeaWNFODR4al9hSTQ/preview";
 	//pdf_file;
 	parent.document.getElementById("team_load").innerHTML = team_names;
 	parent.document.getElementById("ppt_load").innerHTML = ppt_link;
