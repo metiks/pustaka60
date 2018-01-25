@@ -5,7 +5,7 @@ function viewArticle(pdf_file, team_names, ppt_link){
 }
 
 function loadTeam(kelompok){
-	//window.alert(kelompok);
+	window.alert(kelompok);
     for (var i=0; i<=kelompok; i++) {
         rubrik = teamDesc[i][1];
 
