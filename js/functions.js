@@ -22,6 +22,6 @@ function loadTeam(kelompok){
     //ppt_loc =  "https://drive.google.com/drive/folders/1elYhgvaFUPBmLPga4PVBex7iIWKxJEry/materi/PPT/" + rubrik + "Kelompok" + kelompok + ".pptx";
 	ppt_link =  '<a href="'+ppt_loc+'">'+'File Presentasi'+'</a>';
     window.alert(detailTeam);
-  	return viewArticle( file_loc, detailTeam, ppt_link);
+  	//return viewArticle( file_loc, detailTeam, ppt_link);
 }
 
