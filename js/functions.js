@@ -6,7 +6,7 @@ function viewArticle(pdf_file, team_names, ppt_link){
 
 function loadTeam(kelompok){
     team_rubrik = teamDesc[kelompok][1];
-    team_lap_file = teamDesc[kelompok][2];
+	team_lap_file = teamDesc[kelompok][2];
 
     for (var i=0; i<=kelompok; i++) {
 		detailTeam = "<H3>PENULIS</H3>" + "<ul>";
@@ -25,3 +25,4 @@ function loadTeam(kelompok){
 	//window.alert(file_loc);
   	return viewArticle( file_loc, detailTeam, ppt_link);
 }
+
