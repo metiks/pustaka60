@@ -5,7 +5,6 @@ function viewArticle(pdf_file, team_names, ppt_link){
 }
 
 function loadTeam(kelompok){
-	window.alert(kelompok);
     for (var i=0; i<=kelompok; i++) {
         team_rubrik = teamDesc[i][1];
 		team_file = teamDesc[i][2];
@@ -23,6 +22,7 @@ function loadTeam(kelompok){
    	file_loc = "https://drive.google.com/file/d/" + team_file + "/preview";
 	ppt_loc =  "materi/PPT/" + rubrik + "Kelompok" + kelompok + ".pptx";
 	ppt_link =  '<a href="'+ppt_loc+'">'+'File Presentasi'+'</a>';	
+		window.alert(team_file);
   	return viewArticle( file_loc, detailTeam, ppt_link);
 }
 
