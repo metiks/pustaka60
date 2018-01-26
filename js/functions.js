@@ -7,8 +7,9 @@ function viewArticle(pdf_file, team_names, ppt_link){
 function loadTeam(kelompok){
 	window.alert(kelompok);
     for (var i=0; i<=kelompok; i++) {
-        rubrik = teamDesc[i][1];
-
+        team_rubrik = teamDesc[i][1];
+		team_file = teamDesc[i][2];
+		
 		detailTeam = "<H3>PENULIS</H3>" + "<ul>";
 
 	 	jum_team = anggota[kelompok].length;
@@ -19,8 +20,7 @@ function loadTeam(kelompok){
 	 	detailTeam = detailTeam + "</ul>";
 	}
 	
-    	//file_loc = "materi/" + rubrik + "Kelompok" + kelompok + "-Laporan.pdf";
-   	file_loc = "https://drive.google.com/file/d/0B6qHZKp28RmeaWNFODR4al9hSTQ/preview";
+   	file_loc = "https://drive.google.com/file/d/" + team_file + "/preview";
 	ppt_loc =  "materi/PPT/" + rubrik + "Kelompok" + kelompok + ".pptx";
 	ppt_link =  '<a href="'+ppt_loc+'">'+'File Presentasi'+'</a>';	
   	return viewArticle( file_loc, detailTeam, ppt_link);
