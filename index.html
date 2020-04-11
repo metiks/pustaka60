@@ -4,17 +4,14 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!--meta name="google-signin-scope" content="profile email">
-    		<meta name="google-signin-client_id" content="470091652995-rferjl1s24ctqi2u6i1gl5imc8shsefs.apps.googleusercontent.com">
-    		<script src="https://apis.google.com/js/platform.js" async defer></script-->
+  		<link rel="stylesheet" href="css/style.css">
+  		<link rel="stylesheet" href="css/bootstrap.min.css">
   		<script src="https://apis.google.com/js/api.js"></script>
-  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  		<script src="js/jquery.min.js"></script>
+  		<script src="js/bootstrap.min.js"></script>
   		<script src="js/teamDesc.js"></script>
   		<script src="js/anggota.js"></script>
   		<script src="js/functions.js"></script>
-  		<link rel="stylesheet" href="css/style.css">
-  		<link rel="stylesheet" href="css/bootstrap.min.css">
 		
 		<title>Praktek Kimia Terpadu 2 | ANGKATAN 60 | SMK-SMAK BOGOR</title>
 
@@ -24,6 +21,7 @@
 
 		<header id="header">
 			<div class="innertube">
+				<table></table>
 				<p><a href="index.html">Home</a>&nbsp;|&nbsp;
 				<a href="https://drive.smakbo.sch.id" 
 				  target="popup"
@@ -31,30 +29,13 @@
 					Login
 				</a></p>
 			</div>
-<!--
-<div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
-    <script>
-      function onSignIn(googleUser) {
-        // Useful data for your client-side scripts:
-        var profile = googleUser.getBasicProfile();
-        console.log("ID: " + profile.getId()); // Don't send this directly to your server!
-        console.log('Full Name: ' + profile.getName());
-        console.log('Given Name: ' + profile.getGivenName());
-        console.log('Family Name: ' + profile.getFamilyName());
-        console.log("Image URL: " + profile.getImageUrl());
-        console.log("Email: " + profile.getEmail());
-
-        // The ID token you need to pass to your backend:
-        var id_token = googleUser.getAuthResponse().id_token;
-        console.log("ID Token: " + id_token);
-      };
-    </script>
--->
 		</header>
 				
 		<main>
 			<div class="innertube">
 			</div>
+				<p id=team_load></p>
+				<p id=ppt_load></p>	
 				<p>
 					<iframe id="pdf_load" src="main.html" width="800px" height="2100px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 				</p>
@@ -223,15 +204,6 @@
 
 			    </div>
 		</nav>	
-		
-		<!--div id="right">
-			<div class="innertube">
-				<p id=team_load></p>
-				<p id=ppt_load></p>	
-			
-			</div>
-		</div-->
-		
 		<footer id="footer">
 			<div class="innertube">
 				<p align="right">Copyright 2016 - 2018 - SMK SMAK BOGOR</p>
